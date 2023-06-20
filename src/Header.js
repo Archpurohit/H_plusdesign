@@ -15,7 +15,7 @@ export default function Header() {
             <div className='header-clicks'>Commercial Projects</div>
             <div className='header-clicks'>Residencial Projects</div>
             <div className='header-clicks'><Link to="/services">Services</Link> </div>
-            <div className='header-clicks'>Contact</div>
+            <div className='header-clicks'><Link to="/Contact">Contact</Link></div>
           </div>
 
       </header>

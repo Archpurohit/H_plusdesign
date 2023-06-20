@@ -1,0 +1,99 @@
+.conPage{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.leftSide{
+  height: 550px;
+  width: 450px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-right: 0px;
+  background-color: white;
+}
+
+.rightSide{
+  height: 550px;
+  width: 550px;
+  padding-top: 40px;
+  margin-top: 100px;
+  margin-right: 0px;
+  background-color: white;
+
+}
+
+.centeredContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px;
+}
+
+p{
+  font-family: var(--font-family-sans);
+  padding: 10px;
+  margin: 5px 0 0 120px;
+  width: 400px;
+
+}
+
+h1{
+  color: black;
+  font-family: var(--font-family-sans);
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.smallerTitle, h4{
+  color: black;
+  align-items: center ;
+  margin-left: 65px;
+  margin-top: 0px
+
+}
+
+.boxes{
+  height: 50px;
+  width: 350px;
+  margin: 20px 0 10px 0px;
+  font-family: var(--font-family-sans);
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
