@@ -1,0 +1,28 @@
+.title {
+  text-align: left;
+  margin-left: 50px ;
+  color:white;
+  font-family: 'Lobster', sans-serif;
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+.App-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right-header{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.header-clicks{
+  text-align: center;
+  margin: 50px;
+  font-size: large;
+  color:white;
+  /* font-family: 'Lobster', sans-serif; */
+}
