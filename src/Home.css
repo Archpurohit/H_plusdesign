@@ -1,33 +1,179 @@
 .home{
-  height: 450px;
-  width: 850px;
-  border: 2px solid white;
+  height: 650px;
+  width: 70%;
+
   color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    background-color: rgba(200, 200, 200, 0.8);
-    padding: 20px;
+    /* margin-bottom: 250px; */
+
+    padding: 50px;
   }
 
   .name{
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 20px;
   }
 
+  .Name{
+    height: 40px;
+    width: 500px;
+    margin: 5px 0  0 20px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lato,sans-serif'
+  }
+
+  .welcome{
+    height: 300px;
+    width: 30%;
+    margin: 150px 250px 250px 0;
+    font-size: x-large;
+    /* margin-bottom: 380px; */
+
+
+  }
+
+  #welcome1{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: 'Lato,sans-serif';
+    /* font-style:italic; */
+    width: 600px;
+  }
+
+  .profilePic {
+    height: 600px;
+    width: 600px;
+    border-radius: 6px;
+    background-image: url("../public/zsGRUBQR5aMZ8tjcn22eaf-1200-80.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+  }
+
+
 .center{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin: 200px ;
-
+  margin-top: 50px;
+  background: linear-gradient(to right, #044efa, rgb(201, 201, 201));
 
 }
 
 h2, h3, h1{
   font-family:Arial, Helvetica, sans-serif;
-  color:white
+  color:rgb(0, 0, 0)
+}
+
+.commercialBoxHome{
+  width: 205px;
+  height: 850px;
+  background-color: rgba(200, 200, 200, 0.8);
+  display: flex;
+  min-height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+
+  /* CSS */
+  .button-42 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    /* width: 100%; */
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+    width: 200px;
+    margin-top: 25px;
+  }
+
+  .button-42:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  }
+
+
+  /* commerical home page */
+
+  .Commercialhome{
+    width: 100%;
+    height: 800px;
+    margin: 50px 50px 0 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+.CompicturesHome{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1000px;
+
+}
+
+#pic1{
+  background-image: url("../public/sbibank.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#pic2{
+  background-image: url("../public/icicibank.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#pic3{
+  background-image: url("../public/vfish.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#pic4{
+  background-image: url("../public/gulleyCoq.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+.ComWords{
+  height: 500px;
+  width: 450px;
+  margin-top: 100px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.icons > svg {
+  font-size: 3rem;
+  margin-bottom: 10px;
 }

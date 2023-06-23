@@ -1,0 +1,97 @@
+.commercialBox{
+  width: 1500px;
+  height: 800px;
+  margin: 5px;
+  display: flex;
+  min-height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.commercial {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Projects{
+  height: 300px;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 30px;
+
+}
+
+.ProjectName{
+  height: 50px;
+  font-size: large;
+  text-align: center;
+}
+
+.picture{
+  height: 200px;
+  width: 100%;
+}
+
+.Commercialwords{
+
+}
+
+
+
+#picture1{
+  background-image: url("../public/sbibank.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#picture2{
+  background-image: url("../public/icicibank.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#picture3{
+  background-image: url("../public/vfish.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#picture4{
+  background-image: url("../public/gulleyCoq.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#picture5{
+  background-image: url("../public/go_grill.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#picture6{
+  background-image: url("../public/mumbaiLocal.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#picture7{
+  background-image: url("../public/NyGrill.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#picture8{
+  background-image: url("../public/Hi_five.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#picture9{
+  background-image: url("../public/BoxingStudio.jpg");
+  background-size: cover;
+    background-position: center;
+}
