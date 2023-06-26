@@ -66,7 +66,51 @@ export default function Home() {
          </div>
      </div>
 
-     <div>Residental Home page</div>
+     <div className='ResidentalHome'>
+     <div className='ResidentalTitle'> <h1>Residental Properties</h1></div>
+     <div className='residentalflexbox'>
+      <div className='ResiFlex'>
+
+     <div className='ResidentalProjects'>
+  <div className='ResidentalProjectName'>Coquitlam Site</div>
+  <div className='Residentalpicture' id='pic11'></div>
+</div>
+
+<div className='ResidentalProjects'>
+  <div className='ResidentalProjectName'>Condo Renovation Vancouver</div>
+  <div className='Residentalpicture' id='pic21'></div>
+</div>
+
+<div className='ResidentalProjects'>
+  <div className='ResidentalProjectName'>Kitchen Renovation Surrey</div>
+  <div className='Residentalpicture' id='pic31'></div>
+</div>
+
+<div className='ResidentalProjects'>
+  <div className='ResidentalProjectName'>Alaska Family Home</div>
+  <div className='Residentalpicture' id='pic41'></div>
+  </div>
+</div>
+  <div className='ResiWords'><h2>
+Experienced and creative residential interior designer with a keen eye
+ for detail and a passion for creating stylish, functional, and personalized spaces.
+  With a track record of transforming residential properties into inviting homes,
+  I excel in capturing clients' vision and translating it into captivating design concepts.
+  Through a meticulous approach, I curate color schemes, select furniture and decor, and
+  incorporate lighting solutions to enhance the aesthetic appeal and functionality of each room.
+  With a strong understanding of space utilization, I strive to optimize layouts and maximize storage
+  options, I collaborate closely with homeowners to bring their dream homes to life,
+  exceeding expectations with my innovative designs and impeccable execution.</h2>
+  <div><button className="button-42" onClick={() => window.location.href = "/Residental"}>Residental Properties</button></div></div>
+</div>
+
+
+
+
+
+
+
+     </div>
     </div>
   );
 }

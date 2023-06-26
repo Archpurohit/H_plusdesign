@@ -112,6 +112,11 @@ h2, h3, h1{
     margin-top: 25px;
   }
 
+  .picture{
+    height: 100%;
+    width: 100%
+  }
+
   .button-42:hover {
     box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
   }
@@ -177,3 +182,79 @@ h2, h3, h1{
   font-size: 3rem;
   margin-bottom: 10px;
 }
+
+/* residental page home */
+
+.ResidentalHome{
+  height:800px;
+  width: 100%;
+  margin-top: 40px;
+
+}
+
+
+.ResidentalProjects{
+  height: 300px;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 30px;
+
+}
+
+.ResidentalProjectName{
+  height: 50px;
+  font-size: large;
+  text-align: center;
+}
+
+.Residentalpicture{
+  height: 200px;
+  width: 100%;
+}
+
+.ResiFlex{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.ResiWords{
+  height: 500px;
+  width: 500px;
+  font-size: medium;
+margin-top: 50px;
+}
+
+.residentalflexbox{
+  display: flex;
+  flex-direction: row;
+}
+
+#pic11{
+  background-image: url("../public/CoquitlamHouse.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#pic21{
+  background-image: url("../public/VancouverCondo.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#pic31{
+  background-image: url("../public/KitchenReno.jpg");
+  background-size: cover;
+    background-position: center;
+
+}
+
+#pic41{
+  background-image: url("../public/Alaska.jpg");
+  background-size: cover;
+    background-position: center;
+
+}
+
