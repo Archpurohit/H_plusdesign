@@ -3,8 +3,8 @@ import './Services.css';
 
 export default function Services() {
   return (
-    <div className="center">
-      <div className="home">
+    <div className="center1">
+      <div className="home1">
         <div className="title1">H Plus Design's Services</div>
         <div className="servicesContainer">
           <div className="servicesList">

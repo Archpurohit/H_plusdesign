@@ -26,7 +26,9 @@ export default function Home() {
 
 
       </div>
+      <div> <h1>Commercial Propert Projects</h1></div>
       <div className='Commercialhome'>
+
       <div className='CompicturesHome'>
       <div className='commercialBox'>
 
@@ -66,8 +68,8 @@ export default function Home() {
          </div>
      </div>
 
-     <div className='ResidentalHome'>
      <div className='ResidentalTitle'> <h1>Residental Properties</h1></div>
+     <div className='ResidentalHome'>
      <div className='residentalflexbox'>
       <div className='ResiFlex'>
 
@@ -91,6 +93,7 @@ export default function Home() {
   <div className='Residentalpicture' id='pic41'></div>
   </div>
 </div>
+
   <div className='ResiWords'><h2>
 Experienced and creative residential interior designer with a keen eye
  for detail and a passion for creating stylish, functional, and personalized spaces.
