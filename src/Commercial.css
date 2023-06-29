@@ -1,14 +1,13 @@
-.commercialBox{
+.commercialBox1{
   width: 1500px;
   height: 800px;
-  margin: 5px;
-  display: flex;
+  margin: 50px 0 0 300px;
   min-height: auto;
   display: flex;
   flex-wrap: wrap;
 }
 
-.commercial {
+.commercial1{
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -16,9 +15,9 @@
   flex-wrap: wrap;
 }
 
-.Projects{
-  height: 300px;
-  width: 400px;
+.Projects1{
+  height: 400px;
+  width: 600px;
   border: 2px solid black;
   border-radius: 10px;
   margin: 30px;
@@ -32,14 +31,9 @@
 }
 
 .picture{
-  height: 200px;
+  height: 300px;
   width: 100%;
 }
-
-.Commercialwords{
-
-}
-
 
 
 #picture1{

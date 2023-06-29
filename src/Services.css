@@ -1,50 +1,87 @@
-.servicesList{
-
+.servicesList {
+  height: 450px;
+  width: 100%;
   font-size: large;
-  text-align: left;
+  text-align: center;
+  border: 2px solid black;
+
 }
+
+.serviceText{
+  height: 100px;
+}
+
+.serviceText h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.servicePicture{
+  height: 380px;
+  width: 850px;
+
+  margin-left: 30px;
+}
+
 
 .title1{
   margin: 50px 0 0 0 ;
   text-align: center;
   font-size: 40px;
-  /* color: white; */
+
   font-weight: bold;
 }
 
-.home1 {
-  background-color: #f2f2f2;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.title1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.servicesContainer {
+.servicesContainer{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.servicesList {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.servicesList p {
-  margin: 0;
-}
-
-.center1 {
-  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  margin: 50px;
+}
+
+
+/* pictures of services */
+
+#Servicepic6{
+  background-image: url("../public/autocad.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#Servicepic1{
+  background-image: url("../public/autocad.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#Servicepic2{
+  background-image: url("../public/project-management.png");
+  background-size: cover;
+    background-position: center;
+}
+
+#Servicepic3{
+  background-image: url("../public/building\ permits.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#Servicepic4{
+  background-image: url("../public/fraser\ health.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#Servicepic5{
+  background-image: url("../public/liqour.jpg");
+  background-size:contain;
+    background-position: center;
+}
+
+#Servicepic7{
+  background-image: url("../public/3d\ rendering.jpg");
+  background-size: cover;
+    background-position: center;
 }

@@ -26,35 +26,35 @@ export default function Home() {
 
 
       </div>
-      <div> <h1>Commercial Propert Projects</h1></div>
+      <div> <h1>Commercial Property Projects</h1></div>
       <div className='Commercialhome'>
 
-      <div className='CompicturesHome'>
+
       <div className='commercialBox'>
 
 <div className='Projects'>
   <div className='ProjectName'>SBI Bank Surrey</div>
-  <div className='picture' id='pic1'></div>
+  <div className='picture2' id='pic1'></div>
 </div>
 
 <div className='Projects'>
   <div className='ProjectName'>ICICI Bank Delta</div>
-  <div className='picture' id='pic2'></div>
+  <div className='picture2' id='pic2'></div>
 </div>
 
 <div className='Projects'>
   <div className='ProjectName'>Veerji Fish and Grill</div>
-  <div className='picture' id='pic3'></div>
+  <div className='picture2' id='pic3'></div>
 </div>
 
 <div className='Projects'>
   <div className='ProjectName'>Gulley Canteen Coquitlam</div>
-  <div className='picture' id='pic4'></div>
+  <div className='picture2' id='pic4'></div>
 </div>
 
 
 </div>
-      </div>
+
          <div className='icons'> <FontAwesomeIcon icon={faCompassDrafting} /><FontAwesomeIcon icon={faTape} /> <FontAwesomeIcon icon={faRulerCombined} /></div>
 
       <div className='ComWords'><h2>
@@ -75,22 +75,22 @@ export default function Home() {
 
      <div className='ResidentalProjects'>
   <div className='ResidentalProjectName'>Coquitlam Site</div>
-  <div className='Residentalpicture' id='pic11'></div>
+  <div className='Residentalpicture2' id='pic11'></div>
 </div>
 
 <div className='ResidentalProjects'>
   <div className='ResidentalProjectName'>Condo Renovation Vancouver</div>
-  <div className='Residentalpicture' id='pic21'></div>
+  <div className='Residentalpicture2' id='pic21'></div>
 </div>
 
 <div className='ResidentalProjects'>
   <div className='ResidentalProjectName'>Kitchen Renovation Surrey</div>
-  <div className='Residentalpicture' id='pic31'></div>
+  <div className='Residentalpicture2' id='pic31'></div>
 </div>
 
 <div className='ResidentalProjects'>
   <div className='ResidentalProjectName'>Alaska Family Home</div>
-  <div className='Residentalpicture' id='pic41'></div>
+  <div className='Residentalpicture2' id='pic41'></div>
   </div>
 </div>
 
