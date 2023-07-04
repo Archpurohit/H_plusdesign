@@ -1,12 +1,16 @@
 .home{
   height: 650px;
   width: 70%;
-
   color: aliceblue;
-    /* margin-bottom: 250px; */
-
     padding: 50px;
+    margin: 0 0 0 40px;
   }
+
+  body {
+    background-image: url("../public/white-painted-wall-texture-background_53876-138197.avif");
+    background-repeat: repeat;
+  }
+
 
   .name{
     color: rgb(0, 0, 0);
@@ -28,7 +32,7 @@
     width: 30%;
     margin: 150px 250px 250px 0;
     font-size: x-large;
-    /* margin-bottom: 380px; */
+
 
 
   }
@@ -37,10 +41,9 @@
     color: rgb(0, 0, 0);
     margin: 0;
     font-family: 'Lato,sans-serif';
-    /* font-style:italic; */
+
     width: 600px;
   }
-
   .profilePic {
     height: 600px;
     width: 600px;
@@ -48,9 +51,9 @@
     background-image: url("../public/zsGRUBQR5aMZ8tjcn22eaf-1200-80.jpg");
     background-size: cover;
     background-position: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2);
   }
+
 
 
 .center{
@@ -59,7 +62,6 @@
   align-items: center;
   text-align: center;
   margin-top: 50px;
-  background: linear-gradient(to right, #044efa, rgb(201, 201, 201));
 
 }
 
@@ -68,7 +70,10 @@ h2, h3, h1{
   color:rgb(0, 0, 0)
 }
 
-
+.titleHome{
+  margin: 0px;
+  padding-top: 15px;
+}
 
 
   /* CSS */
@@ -103,7 +108,7 @@ h2, h3, h1{
   }
 
   .picture2{
-    height: 200px;
+    height: 250px;
     width: 100%
   }
 
@@ -190,6 +195,13 @@ h2, h3, h1{
   margin-bottom: 10px;
 }
 
+.ProjectName1{
+  height: 50px;
+  text-align: center;
+  font-size: large;
+  background-color: white;
+}
+
 /* residental page home */
 
 .ResidentalHome{
@@ -204,17 +216,18 @@ h2, h3, h1{
 .ResidentalProjects{
   height: 300px;
   width: 400px;
-  border: 2px solid black;
-  border-radius: 10px;
+  border: 3px solid black;
+  /* border-radius: 10px; */
   margin: 30px;
+  background-color: white;
 
 }
 
 .Projects{
   height: 300px;
   width: 400px;
-  border: 2px solid black;
-  border-radius: 10px;
+  border: 4px solid black;
+  /* border-radius: 10px; */
   margin: 30px;
 }
 
@@ -225,7 +238,7 @@ h2, h3, h1{
 }
 
 .Residentalpicture2{
-  height: 200px;
+  height: 250px;
   width: 100%;
 }
 
@@ -271,6 +284,21 @@ h2, h3, h1{
 
 #pic41{
   background-image: url("../public/Alaska.jpg");
+  background-size: cover;
+    background-position: center;
+
+}
+
+#pic51{
+  background-image: url("../public/Coquitlam\ family.jpg");
+  background-size: cover;
+    background-position: center;
+
+}
+
+
+#pic61{
+  background-image: url("../public/Renovation.jpg");
   background-size: cover;
     background-position: center;
 

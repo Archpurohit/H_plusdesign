@@ -9,3 +9,22 @@ a:-webkit-any-link {
   color: inherit !important;
   text-decoration: none !important;
 }
+
+.App1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.main {
+  flex: 1;
+}
+
+.Footer {
+  flex-shrink: 0;
+}
+

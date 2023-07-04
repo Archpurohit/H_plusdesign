@@ -25,7 +25,7 @@ export default function Contact() {
       <div className="conPage">
         <div className="centeredContent">
           <div className="leftSide">
-            <div>
+            <div className="titleContact">
               <h1>Contact Us</h1>
             </div>
             <div className="smallerTitle">
