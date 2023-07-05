@@ -1,0 +1,69 @@
+.Coquitlam1Page {
+  height: auto;
+}
+
+.Coquitlamhome1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.pictureCoquit1{
+  width: 100%;
+  height: 100%;
+}
+
+.ResidentalBox {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+
+}
+
+.Coquit1Home {
+  height: 350px;
+  width: 600px;
+  border: 3px solid black;
+  /* border-radius: 10px; */
+  margin: 30px;
+  background-color: white;
+}
+
+.Residental {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px auto;
+}
+
+#van11{
+  background-image: url("../public/Vancondo/DowntownCondo.jpg");
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+#van12{
+  background-image: url("../public/Vancondo/DowntownCondo1.2.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#van13{
+  background-image: url("../public/Vancondo/Renovation2.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#van14{
+  background-image: url("../public/Vancondo/VanCondo1.5.jpg");
+  background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

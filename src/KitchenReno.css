@@ -1,0 +1,73 @@
+.kit1Page {
+  height: auto;
+}
+
+.kithome1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.picturekit1{
+  width: 100%;
+  height: 100%;
+}
+
+.kitBox {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+
+}
+
+.kitHome {
+  height: 350px;
+  width: 600px;
+  border: 3px solid black;
+  /* border-radius: 10px; */
+  margin: 30px;
+  background-color: white;
+}
+
+.kit {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px auto;
+}
+
+#kit12{
+  background-image: url("../public/KitchenReno/kitchenmid.jpg");
+  background-size: cover;
+    background-position: center;
+
+}
+
+#kit14{
+  background-image: url("../public/KitchenReno.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#kit13{
+  background-image: url("../public/KitchenReno/KitchenRenoafter.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#kit11{
+  background-image: url("../public/KitchenReno/KitchenRenoBefore.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#kit15{
+  background-image: url("../public/Renovation2.jpg");
+  background-size: cover;
+    background-position: center;
+}

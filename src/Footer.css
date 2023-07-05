@@ -1,0 +1,15 @@
+.footer{
+  height: 50px;
+  width: 1500px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 250px;
+}
+
+
+.footerText {
+  white-space: nowrap;
+  font-size: x-small;
+
+}
