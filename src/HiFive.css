@@ -1,0 +1,63 @@
+.HiFive1Page {
+  height: auto;
+}
+
+.HiFivehome1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.pictureHiFive1{
+  width: 100%;
+  height: 100%;
+}
+
+.HiFiveBox {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+
+}
+
+.HiFiveHome {
+  height: 350px;
+  width: 600px;
+  border: 3px solid black;
+  /* border-radius: 10px; */
+  margin: 30px;
+  background-color: white;
+}
+
+.HiFive {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px auto;
+}
+
+#HiFive12{
+  background-image: url("../public/HiFive/HiFive3.jpg");
+  background-size: cover;
+    background-position: center;
+
+}
+
+
+#HiFive13{
+  background-image: url("../public/HiFive/HiFive2.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#HiFive11{
+  background-image: url("../public/HiFive/HiFive1.jpg");
+  background-size: cover;
+    background-position: center;
+}
+

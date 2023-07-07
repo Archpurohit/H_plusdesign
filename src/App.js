@@ -4,14 +4,23 @@ import Services from './Services';
 import Home from './Home';
 import Contact from './Contact';
 import Commercial from './Commercial';
-import Residental from './Residental'; import Footer from './Footer'; import ResidentalCoquitlam1 from './ResidentalCoquitlam1'; import VancouverCondo from './VancouverCondo'; import KitchenReno from './KitchenReno'; import AlaskaHome from './AlaskaHome'; import ResidentalCoquitlam2 from './ResidentalCoquitlam2'; import Renovations from './Renovations'; import SBIBank from './SBIBank'; import ICICIBank from './ICICIBank'; import Veerji from './Veerji'; import Gulley from './Gulley';
-import GoGrill from './GoGrill';
+import Residental from './Residental';
+ import Footer from './Footer';
+ import ResidentalCoquitlam1 from './ResidentalCoquitlam1';
+ import VancouverCondo from './VancouverCondo';
+ import KitchenReno from './KitchenReno';
+ import AlaskaHome from './AlaskaHome';
+ import ResidentalCoquitlam2 from './ResidentalCoquitlam2';
+ import Renovations from './Renovations';
+ import SBIBank from './SBIBank'; import ICICIBank from './ICICIBank';
+ import Veerji from './Veerji';
+ import Gulley from './Gulley';
 import MumbaiLocal from './MumbaiLocal';
 import NYGrill from './NYGrill';
 import RebelBoxing from './RebelBoxing';
 import Notary from './Notary';
 import HiFive from './HiFive';
-
+import GoGrill from './GoGrill';
 
 function App() {
   return (
@@ -35,7 +44,7 @@ function App() {
               <Route path="/VancouverCondo" element={<VancouverCondo />} />
               <Route path="/AlaskaHome" element={<AlaskaHome />} />
               <Route path="/KitchenReno" element={<KitchenReno />} />
-              <Route path="/Renovations" element={<Renovations />} />
+              {/* <Route path="/Renovations" element={<Renovations />} /> */}
 
               {/* Commerical links */}
               <Route path="/SBIBank" element={<SBIBank />} />

@@ -1,0 +1,68 @@
+.SBI1Page {
+  height: auto;
+}
+
+.SBIhome1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.pictureSBI1{
+  width: 100%;
+  height: 100%;
+}
+
+.SBIBox {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+
+}
+
+.SBIHome {
+  height: 350px;
+  width: 600px;
+  border: 3px solid black;
+  /* border-radius: 10px; */
+  margin: 30px;
+  background-color: white;
+}
+
+.SBI {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px auto;
+}
+
+#SBI12{
+  background-image: url("../public/SBIBank/SBIBank1.2.jpg");
+  background-size: cover;
+    background-position: center;
+
+}
+
+#SBI14{
+  background-image: url("../public/SBIBank/SBIBank1.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#SBI13{
+  background-image: url("../public/SBIBank/SBIBank1.3.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#SBI11{
+  background-image: url("../public/SBIBank/SBIBank1.4.jpg");
+  background-size: cover;
+    background-position: center;
+}
+

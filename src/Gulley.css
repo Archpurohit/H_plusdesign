@@ -1,0 +1,79 @@
+.Gulley1Page {
+  height: auto;
+}
+
+.Gulleyhome1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.pictureGulley1{
+  width: 100%;
+  height: 100%;
+}
+
+.GulleyBox {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+
+}
+
+.GulleyHome {
+  height: 500px;
+  width: 700px;
+  border: 3px solid black;
+  /* border-radius: 10px; */
+  margin: 30px;
+  background-color: white;
+}
+
+.Gulley {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px auto;
+}
+
+#Gulley12{
+  background-image: url("../public/Gulley/gulley2.jpg");
+  background-size: cover;
+    background-position: center;
+
+}
+
+#Gulley14{
+  background-image: url("../public/Gulley/gulley4.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#Gulley13{
+  background-image: url("../public/Gulley/gulley3.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#Gulley11{
+  background-image: url("../public/Gulley/gulley1.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#Gulley15{
+  background-image: url("../public/Gulley/gulley5.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#Gulley16{
+  background-image: url("../public/Gulley/gulley6.jpg");
+  background-size: cover;
+    background-position: center;
+}

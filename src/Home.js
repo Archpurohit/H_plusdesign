@@ -26,7 +26,7 @@ export default function Home() {
 
 
       </div>
-      <div> <h1>Commercial Property Projects</h1></div>
+      {/* <div> <h1>Commercial Property Projects</h1></div>
       <div className='Commercialhome'>
 
 
@@ -53,9 +53,9 @@ export default function Home() {
           </div>
 
 
-        </div>
+        </div> */}
 
-        <div className='icons'> <FontAwesomeIcon icon={faCompassDrafting} /><FontAwesomeIcon icon={faTape} /> <FontAwesomeIcon icon={faRulerCombined} /></div>
+        {/* <div className='icons'> <FontAwesomeIcon icon={faCompassDrafting} /><FontAwesomeIcon icon={faTape} /> <FontAwesomeIcon icon={faRulerCombined} /></div>
 
         <div className='ComWords'><h2>
           As a commercial interior designer, I specialize in transforming businesses into captivating
@@ -107,13 +107,13 @@ export default function Home() {
             <div><button className="button-42" onClick={() => window.location.href = "/Residental"}>Residental Properties</button></div></div>
         </div>
 
-
+ */}
 
 
 
 
 
       </div>
-    </div>
+    // </div>
   );
 }

@@ -1,0 +1,68 @@
+.NYGrill1Page {
+  height: auto;
+}
+
+.NYGrillhome1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.pictureNYGrill1{
+  width: 100%;
+  height: 100%;
+}
+
+.NYGrillBox {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+
+}
+
+.NYGrillHome {
+  height: 500px;
+  width: 700px;
+  border: 3px solid black;
+  /* border-radius: 10px; */
+  margin: 30px;
+  background-color: white;
+}
+
+.NYGrill {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px auto;
+}
+
+#NYGrill12{
+  background-image: url("../public/NyGrill/NyGrill1.jpg");
+  background-size: cover;
+    background-position: center;
+
+}
+
+#NYGrill14{
+  background-image: url("../public/NyGrill/NyGrill2.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#NYGrill13{
+  background-image: url("../public/NyGrill/NyGrill3.jpg");
+  background-size: cover;
+    background-position: center;
+}
+
+#NYGrill11{
+  background-image: url("../public/NyGrill/NyGrill4.jpg");
+  background-size: cover;
+    background-position: center;
+}
+

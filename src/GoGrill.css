@@ -1,0 +1,56 @@
+.GoGrill1Page {
+  height: auto;
+}
+
+.GoGrillhome1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.pictureGoGrill1{
+  width: 100%;
+  height: 100%;
+}
+
+.GoGrillBox {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+
+}
+
+.GoGrillHome {
+  height: 350px;
+  width: 600px;
+  border: 3px solid black;
+  /* border-radius: 10px; */
+  margin: 30px;
+  background-color: white;
+}
+
+.GoGrill {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px auto;
+}
+
+#GoGrill11{
+  background-image: url("../public/GoGrill/gogrill1.jpg");
+  background-size: cover;
+    background-position: center;
+
+}
+
+#GoGrill12{
+  background-image: url("../public/GoGrill/gogrill2.jpg");
+  background-size: cover;
+    background-position: center;
+}
+

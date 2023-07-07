@@ -1,6 +1,6 @@
 .home{
   height: 650px;
-  width: 70%;
+  width: 50%;
   color: aliceblue;
     padding: 50px;
     margin: 0 0 0 40px;
@@ -27,22 +27,21 @@
     font-family: 'Lato,sans-serif'
   }
 
-  .welcome{
+  .welcome {
     height: 300px;
-    width: 30%;
-    margin: 150px 250px 250px 0;
+    margin: 100px 50px 0 0;
     font-size: x-large;
-
-
+    padding: 20px;
 
   }
+
 
   #welcome1{
     color: rgb(0, 0, 0);
     margin: 0;
     font-family: 'Lato,sans-serif';
 
-    width: 600px;
+    width: 800px;
   }
   .profilePic {
     height: 600px;
@@ -58,11 +57,11 @@
 
 .center{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   align-items: center;
   text-align: center;
   margin-top: 50px;
-
+  width: 100%;
 }
 
 h2, h3, h1{

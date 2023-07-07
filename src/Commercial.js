@@ -40,7 +40,7 @@ export default function Commercial() {
       </div>
       </Link>
 
-      <Link to="/GoGril">
+      <Link to="/GoGrill">
       <div className='Projects1'>
         <div className='picture' id='picture5'></div>
         <div className='ProjectName' ><h3>Go Grill Abbotsford </h3></div>

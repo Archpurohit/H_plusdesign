@@ -45,12 +45,12 @@ export default function Residental() {
               </div>
             </Link>
 
-            <Link to="/Renovations">
+            {/* <Link to="/Renovations">
               <div className="Projects2">
                 <div className="picture" id="pic61"></div>
                 <div className="ProjectName"> <h3>Renovations</h3></div>
               </div>
-            </Link>
+            </Link> */}
 
           </div>
         </div>
