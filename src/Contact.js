@@ -6,7 +6,7 @@ export default function Contact() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    const recipient = "harshadanaik@gmail.com";
+    const recipient = "hplusdesigninc@gmail.com";
     const subject = "Contact Inquiry";
     const body = `Full Name: ${event.target["full-name"].value}\n
                  Email: ${event.target.email.value}\n

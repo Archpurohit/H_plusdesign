@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCompassDrafting } from '@fortawesome/free-solid-svg-icons';
 import { faRulerCombined } from '@fortawesome/free-solid-svg-icons';
 import { faTape } from '@fortawesome/free-solid-svg-icons';
-
+import hcollage from '../src/hcollage.jpg';
 
 export default function Home() {
   return (
@@ -14,14 +14,21 @@ export default function Home() {
         <div className='home' >
           <div className='profilePic'></div>
           <div className='Name'>Harshada Naik</div>
-
-
-
-
         </div>
-        <div className='welcome'>< h4  id='welcome1'>Welcome to our website, where art and architecture intertwine to create extraordinary spaces. As a passionate interior designer and architect, we bring your visions to life, transforming ordinary places into captivating environments. With meticulous attention to detail and a keen eye for aesthetics, we strive to create harmonious designs that reflect your unique style and enhance the way you live. Explore our portfolio and let us embark on a journey of creativity, craftsmanship, and endless possibilities. Discover the beauty of bespoke design and let us redefine your space into a work of art.</ h4 >
+
+
+        <div class="photo-frame">
+        <img src={hcollage} alt="Photo" />
+<div id="maintext">
+<div class="comName"><mark>H Plus</mark> Design Inc.</div>
+<h2>Where art and architecure interwine to create extraordinary spaces.</h2>
+<p> As a passionate interior designer and architect, I bring my visions to life, transforming ordinary places into captivating environments. With meticulous attention to detail and a keen eye for aesthetics, i strive to create harmonious designs that reflect your unique style and enhance the way you live. </p>
+<p> Explore our portfolio and let us embark on a journely of creativity, craftsmanship, and endless posibilities. Discover the beauty of bespoke design and let us redefine your space into a work of art.</p>
+</div>
           <div><button className="button-42" onClick={() => window.location.href = "/Contact"}>Contact Me</button></div>
-        </div>
+  </div>
+
+
 
 
 
@@ -55,7 +62,7 @@ export default function Home() {
 
         </div> */}
 
-        {/* <div className='icons'> <FontAwesomeIcon icon={faCompassDrafting} /><FontAwesomeIcon icon={faTape} /> <FontAwesomeIcon icon={faRulerCombined} /></div>
+      {/* <div className='icons'> <FontAwesomeIcon icon={faCompassDrafting} /><FontAwesomeIcon icon={faTape} /> <FontAwesomeIcon icon={faRulerCombined} /></div>
 
         <div className='ComWords'><h2>
           As a commercial interior designer, I specialize in transforming businesses into captivating
@@ -113,7 +120,7 @@ export default function Home() {
 
 
 
-      </div>
+    </div>
     // </div>
   );
 }
