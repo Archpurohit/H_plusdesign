@@ -2,7 +2,7 @@
   height: 650px;
   width: 40%;
   color: aliceblue;
-    padding: 50px;
+
     margin: 0 0 0 40px;
   }
 
@@ -50,8 +50,8 @@
 
   .photo-frame{
     height: 600px;
-   top: 7%;
-   left: 50%;
+   /* top: 7%; */
+   /* left: 50%; */
    transform: translate(0%,0%);
     width: 760px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -72,7 +72,7 @@
 
 
   .profilePic {
-    height: 600px;
+    height: 650px;
     width: 600px;
     border-radius: 6px;
     background-image: url("../public/zsGRUBQR5aMZ8tjcn22eaf-1200-80.jpg");
