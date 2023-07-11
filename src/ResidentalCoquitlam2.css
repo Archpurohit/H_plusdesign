@@ -39,6 +39,7 @@
   align-items: center;
   display: flex;
   margin: 50px auto;
+  flex-direction: column;
 }
 
 #coquitlam212{
@@ -66,3 +67,19 @@
     background-position: center;
 }
 
+#coquitlam215{
+
+  background-size: cover;
+    background-position: center;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 800px; /* Adjust the desired maximum width */
+  margin: 0 auto; /* Center the video horizontally */
+}
+
+.video-container video {
+  width: auto;
+  height: auto;
+}
